@@ -1,0 +1,205 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    background: #000000;
+    padding: 0px;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+.content {
+    margin: 0 auto;
+    width: 1340px;
+        height: 100%;
+}
+    .top_nav_box {
+        position: fixed;
+        width: 100%;
+        height: 30px;
+        top: 0;
+        left: 0;
+        right: 0;
+        font-size: 12px;
+        color: #ffffff;
+        box-sizing: border-box;
+        background: #767070;
+        padding: 5px 10px 5px 10px;
+        z-index: 10;
+        }
+        .top_nav_right {
+            float: right;
+            }
+            .top_nav_right a {
+                color: #ffffff;
+                font-size: 12px;
+            }
+    .headerbox {
+        margin: 0 auto;
+        position: relative;
+        width: 1280px;
+        padding: 10px;
+        border-bottom: 1px solid #6C6666;
+        top: 25px;
+        }
+        .menu {
+            position: absolute;
+            left: 20px;
+            top: 35px;
+        }
+        .logo {
+            position: relative;
+            width: 100%;
+            max-width: 208px;
+            margin: 0 auto;
+        }
+        .search {
+            position: absolute;
+            right: 140px;
+            top: 35px;
+            box-sizing: border-box;
+        }
+        .buy {
+            position: absolute;
+            right: 20px;
+            top: 35px;
+        }
+    .navigation{
+        margin: 0 auto;
+        position: relative;
+        top: 40px;
+        width: 1280px;
+        height: 550px;
+        background: #000000;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        }
+        .navigation_content {
+            position: relative;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            }
+            .nav {
+                position: relative;
+                float: left;
+                width: 20%;
+                box-sizing: border-box;
+                border: 1px solid #6C6666;
+                }
+                .nav ul {
+                    list-style: none;
+                    width: 100%;
+                    height: auto;
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                .nav li {
+                    color: #ffffff;
+                    width: 100%;
+                    height: 103px;
+                    font-family: "Castellar";
+                    font-size: 40px;
+                    line-height: 80px;
+                    border-right: 1px solid #6C6666;
+                    border-bottom: 1px solid #6C6666;
+                    padding: 5.73%;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+        
+            .news {
+                position: relative;
+                float: left;
+                width: 80%;
+                }
+                .news img {
+                    max-width: 100%;
+                }
+    .motto {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        }
+        .motto p{
+            width: 100%;
+            text-align: center;
+            font-family: "Kunstler Script";
+            font-size: 40px;
+        }
+    .main_content {
+        width: 100%;
+        height: auto;
+        background: #767676;
+        padding: 10px;
+        }
+        .content_box {
+            margin: 30px auto;
+            background: #ffffff;
+            width: 1280px;
+            height: 512px;
+            border: 30px solid #ffffff;
+            border-radius: 5px;
+            }
+            .content_box img {
+                width: 50%;
+                float: left;
+                box-sizing: border-box;
+                border-radius: 5px;
+            }
+            .introduction {
+                width: 50%;
+                float: right;
+                box-sizing: border-box;
+                padding: 0 40px;
+                color: #000000;
+                }
+                .introduction h3 {
+                    font-family: "Castellar";
+                    font-size: 40px;
+                }
+                .introduction p {
+                    line-height: 50px;
+                    font-size: 30px;
+                }
+                .read_more a{
+                    display: inline-block;
+                    float: right;
+                    padding: 10px;
+                    margin: 70px 20px auto auto;
+                    font-weight: 1000;
+                    font-size: 25px;
+                    border: 10px solid #0066FF;
+                    border-radius: 10px;
+                    background: #0066FF;
+                    color: #ffffff;
+                }
+    footer {
+        width: 100%;
+        height: 80px;
+        }
+        .footer_left {
+            float: left;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+        .footer_right{
+            float: right;
+        }
+        .footer_right img {
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+        footer p{
+        }
